@@ -27,7 +27,7 @@ def main():
         
     commit_message = 'Update Ballerina in Action samples'
     try:
-        update = commit_file('components/home-page/bal-action/restful-api.md', updated_file, 'update-restful-api', commit_message)[0]
+        update = commit_file('components/home-page/bal-action/action-bbe/restful-api.md', updated_file, 'update-restful-api', commit_message)[0]
 
         if update:
             pr_title = '[Automated] Update Ballerina in Action samples'
